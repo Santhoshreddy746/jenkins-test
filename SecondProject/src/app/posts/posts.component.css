@@ -1,0 +1,28 @@
+.posts-div-class {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.posts-div-div-class {
+    margin: 5px;
+    padding: 5px;
+    background-color: lightgray;
+    border-radius: 8px;
+    display: grid;
+    grid-template-rows: 50px auto;
+}
+
+.posts-div-title-class {
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #00A8FF;
+
+}
+
+.posts-div-body-class {
+    font-weight: 200;
+    font-size: .75em;
+    color: grey;
+    padding-top: 5px;
+}

@@ -1,0 +1,12 @@
+<h1> Users </h1>
+<ul class="users-ul-class" [@listsagger]="users$">
+  <li *ngFor="let user of users$" class="users-li-class" routerLink="/details/{{user.id}}">
+    <a class="users-li-a-class"> {{ user.name }} </a>
+    <div class="users-div-class">
+        <a class= "users-li-ul-li-a-class">{{ user.email }}</a>
+        <a class= "users-li-ul-li-a-class" href="http://{{ user.website }}">{{ user.website }}</a>
+    </div>
+  </li>
+</ul>
+
+

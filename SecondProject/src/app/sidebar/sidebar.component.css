@@ -1,0 +1,24 @@
+.nav-class {
+    background: #2D2E2E;
+    height: 100%;
+}
+
+.ul-class {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ul-class, li, a {
+   color: #fff;
+   padding: 10px;
+   display: block;
+}
+
+ .activated {
+    background-color: #00a8ff;
+}
+
+
+
+

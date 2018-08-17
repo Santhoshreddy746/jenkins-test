@@ -1,0 +1,19 @@
+<nav class="nav-class">
+  <ul class="ul-class">
+    <li>
+      <a routerLink = "" [class.activated]="currebtUrl == '/'">
+        <i class="material-icons">supervised_user_circle</i>
+      </a>
+    </li>
+    <li>
+      <a routerLink = "posts" [class.activated]="currebtUrl == '/posts'">
+          <i class="material-icons">message</i>
+       </a>
+    </li>
+    <li>
+      <a routerLink = "todos" [class.activated]="currebtUrl == '/todos'">
+         <i class="material-icons">list</i>
+      </a>
+    </li>  
+  </ul>
+</nav>

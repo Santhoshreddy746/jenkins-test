@@ -1,0 +1,8 @@
+<h1>Todos</h1>
+<div class="todos-div-class">
+  <div class="todo-div-class" *ngFor="let todo of todos$">
+    <span class="span-completed-class" *ngIf="todo.completed"></span>
+    <span class="span-not-completed-class" *ngIf="!todo.completed"></span>
+    <a class="todo-title-class">{{ todo.title }}</a>
+  </div>
+</div>

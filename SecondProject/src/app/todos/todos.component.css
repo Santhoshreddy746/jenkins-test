@@ -1,0 +1,35 @@
+.todos-div-class {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.todo-div-class {
+    margin: 5px;
+    padding: 5px;
+    background-color: lightgray;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 5% auto;
+}
+
+.todo-title-class {
+    font-weight: 200;
+    font-size: .75em;
+    color: grey;
+}
+
+.span-completed-class {
+    background-color: lightgreen;
+    height: 10px;
+    width: 10px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.span-not-completed-class {
+    background-color: lightcoral;
+    height: 10px;
+    width: 10px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
